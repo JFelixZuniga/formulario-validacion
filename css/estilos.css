@@ -79,6 +79,7 @@ main {
 }
 .formulario__input-error-activo {
   display: block;
+  padding-top: 1rem;
 }
 .formulario__validacion-estado {
   position: absolute;
@@ -157,6 +158,14 @@ main {
 
 /************* Media queries *************/
 @media only screen and (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
+  main {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
   .formulario {
     grid-template-columns: 1fr;
   }
